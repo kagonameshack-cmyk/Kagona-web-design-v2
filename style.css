@@ -58,9 +58,7 @@ header{
     background 0.4s ease,
     border 0.4s ease,
     top 0.4s ease;
-}
 
-header{
     opacity:0;
 
     transform:
@@ -69,6 +67,7 @@ header{
 
     transition:all 0.5s ease;
 }
+
 
 header.show-header{
 
