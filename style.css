@@ -451,6 +451,58 @@ BUTTONS
 
 
 
+/*==================================================
+HERO TRUST
+==================================================*/
+
+.hero-trust{
+
+    display:flex;
+
+    gap:40px;
+
+    margin-top:60px;
+
+    flex-wrap:wrap;
+
+}
+
+.trust-item{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.trust-item strong{
+
+    font-size:1.15rem;
+
+    font-weight:600;
+
+    color:var(--text-primary);
+
+}
+
+.trust-item span{
+
+    font-size:.82rem;
+
+    color:var(--text-secondary);
+
+    letter-spacing:1px;
+
+}
+
+
+
+
+
+
+
 
 
 
