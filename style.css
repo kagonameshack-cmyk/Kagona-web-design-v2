@@ -500,6 +500,45 @@ HERO TRUST
 
 
 
+/*==================================================
+HERO VISUAL
+==================================================*/
+
+.hero-visual{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.device-frame{
+
+    width:100%;
+
+    max-width:560px;
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    box-shadow:var(--shadow);
+
+}
+
+.device-frame img{
+
+    width:100%;
+
+    display:block;
+
+}
 
 
 
