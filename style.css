@@ -327,6 +327,58 @@ HERO
 
 
 
+/*==================================================
+HERO CONTENT
+==================================================*/
+
+.hero-content{
+
+    max-width:640px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    margin-bottom:24px;
+
+    padding:10px 18px;
+
+    border:1px solid var(--border);
+
+    border-radius:100px;
+
+    font-size:.75rem;
+
+    letter-spacing:2px;
+
+    color:var(--accent);
+
+}
+
+.hero-content h1{
+
+    font-size:clamp(3rem,7vw,5.6rem);
+
+    line-height:.95;
+
+    margin-bottom:28px;
+
+}
+
+.hero-content p{
+
+    max-width:580px;
+
+    font-size:1.05rem;
+
+    margin-bottom:42px;
+
+}
+
+
+
 
 
 
