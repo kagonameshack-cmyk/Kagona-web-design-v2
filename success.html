@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Inquiry Sent • Kagona
+</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+rel="stylesheet"/>    
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap"
+rel="stylesheet">
+
+<style>
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+    background:#050505;
+
+    color:#F5F1E8;
+
+    font-family:'Inter',sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    overflow:hidden;
+
+    position:relative;
+}
+
+/* BACKGROUND GLOW */
+
+body::before{
+    content:"";
+
+    position:absolute;
+
+    width:700px;
+    height:700px;
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(201,169,125,0.12),
+        transparent 70%
+    );
+
+    top:50%;
+    left:50%;
+
+    transform:
+    translate(-50%,-50%);
+
+    z-index:1;
+}
+
+/* CONTAINER */
+
+.success-box{
+    position:relative;
+
+    z-index:5;
+
+    text-align:center;
+
+    padding:0 7%;
+
+    max-width:850px;
+}
+
+/* SMALL TEXT */
+
+.success-box p{
+    color:#C9A97D;
+
+    letter-spacing:6px;
+
+    font-size:0.8rem;
+
+    margin-bottom:30px;
+}
+
+/* TITLE */
+
+.success-box h1{
+    font-family:
+    'Cormorant Garamond',serif;
+
+    font-size:6rem;
+    font-weight:300;
+
+    line-height:0.95;
+
+    margin-bottom:35px;
+}
+
+/* SOCIALS */
+
+.success-socials{
+    margin-top:45px;
+
+    display:flex;
+    justify-content:center;
+    gap:18px;
+}
+
+.success-socials a{
+    width:58px;
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:
+    1px solid rgba(255,255,255,0.08);
+
+    color:#F5F1E8;
+
+    font-size:1.2rem;
+
+    transition:0.45s ease;
+
+    background:rgba(255,255,255,0.015);
+}
+
+.success-socials a:hover{
+    transform:translateY(-4px);
+
+    border-color:
+    rgba(201,169,125,0.35);
+
+    color:#C9A97D;
+
+    background:
+    rgba(201,169,125,0.05);
+}
+    
+/* DESCRIPTION */
+
+.success-box span{
+    display:block;
+
+    color:#BEBEBE;
+
+    line-height:2;
+
+    max-width:650px;
+
+    margin:auto auto 50px;
+}
+    
+/* BUTTON */
+
+.success-box > a{
+    display:inline-block;
+
+    padding:18px 42px;
+
+    border:
+    1px solid rgba(255,255,255,0.12);
+
+    color:#F5F1E8;
+
+    text-decoration:none;
+
+    letter-spacing:3px;
+
+    font-size:0.78rem;
+
+    transition:0.5s ease;
+}
+
+/* HOVER */
+
+.success-box > a:hover{
+    background:#F5F1E8;
+
+    color:#050505;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .success-box h1{
+        font-size:3.5rem;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="success-box">
+
+    <p>
+        INQUIRY RECEIVED
+    </p>
+
+    <h1>
+
+        Thank You <br>
+        For Reaching Out
+
+    </h1>
+
+    <span>
+
+        Your inquiry has been successfully submitted.
+        Kagona will review your project and
+        respond shortly with the next steps.
+
+    </span>
+
+    <a href="index.html">
+
+        BACK TO HOME
+
+    </a>
+
+<div class="success-socials">
+
+    <a href="https://share.google/bEFjYL3Htl4nSpeCC"
+    target="_blank">
+
+        <i class="ri-google-fill"></i>
+
+    </a>
+
+    <a href="https://www.instagram.com/kagona_web_design?igsh=a2MwbDNldmp6eXY4"
+    target="_blank">
+
+        <i class="ri-instagram-line"></i>
+
+    </a>
+
+    <a href="https://wa.me/message/3DCSHE4VSO2UC1"
+    target="_blank">
+
+        <i class="ri-whatsapp-line"></i>
+
+    </a>
+
+</div>
+    
+</div>
+
+</body>
+
+</html>
