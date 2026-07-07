@@ -297,6 +297,36 @@ NAVIGATION
 
 
 
+/*==================================================
+HERO
+==================================================*/
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.hero-container{
+
+    display:grid;
+
+    grid-template-columns:1.1fr .9fr;
+
+    align-items:center;
+
+    gap:90px;
+
+    min-height:100vh;
+
+}
+
+
+
 
 
 
