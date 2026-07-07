@@ -379,6 +379,27 @@ HERO CONTENT
 
 
 
+
+/*==================================================
+HERO POSITIONING
+==================================================*/
+
+.hero-positioning{
+
+    margin-bottom:38px;
+
+    color:var(--accent);
+
+    letter-spacing:2px;
+
+    font-size:.82rem;
+
+    text-transform:uppercase;
+
+}
+
+
+
 /*==================================================
 BUTTONS
 ==================================================*/
