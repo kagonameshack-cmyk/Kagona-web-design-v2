@@ -337,6 +337,10 @@ HERO
 
     min-height:100vh;
 
+    padding-top:220px;
+
+    padding-bottom:120px;
+
     display:flex;
 
     align-items:center;
